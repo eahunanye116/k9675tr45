@@ -1,0 +1,309 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.abt_Us {
+  background-image: url(/images/final.png);
+  background-size: cover;
+  background-position: 100%;
+  padding: 6em;
+}
+.abt_Us_h1 {
+  padding-left: 5em;
+}
+.abt_Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 6em;
+  padding-top: 7em;
+  background-color: #141313;
+}
+.img1 {
+  width: 33em;
+  padding-top: 1.2em;
+}
+.abt_para {
+  width: 40em;
+  line-height: 1.5;
+}
+.htx_abt {
+  font-size: 30px;
+  padding-bottom: 1em;
+}
+.put_Abt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+}
+.win_Abt {
+  width: 15em;
+  height: 12em;
+  padding: 1em;
+  background-color: #141313;
+  text-align: center;
+  line-height: 1.7;
+}
+.Gout_abt {
+  margin-top: 6.5em;
+}
+.h3-put {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+.bitcoinVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 10em;
+}
+.videoDescription {
+  width: 37em;
+}
+.videoParagraph {
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+.videoParagraph1 {
+  padding-top: 1em;
+  line-height: 1.5;
+}
+.videoParagraph2 {
+  padding-top: 1em;
+}
+a {
+  color: #c7c5c5;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ovCompany {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0c0c0c;
+  width: 100%;
+}
+.company {
+  width: 20em;
+}
+.company-1 {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.com-last-div {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+.navSection5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  display: block;
+}
+.navSection2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+.navSection {
+  display: block;
+  line-height: 1.5;
+}
+.header {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  padding-bottom: 0.9em;
+}
+.paragraph {
+  color: #c7c5c5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+.header1 {
+  color: #ffd700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0.3em;
+}
+.header2 {
+  color: #ffd700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0.8em;
+  padding-left: 14px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .abt_Div {
+    flex-direction: column;
+    padding-bottom: 3em;
+    padding-top: 5em;
+  }
+  .put_Abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    padding: 0.7em;
+  }
+  .win_Abt {
+    width: 15em;
+    height: 14em;
+    padding: 1em;
+    background-color: #141313;
+    text-align: center;
+    line-height: 1.7;
+  }
+  .bitcoinVideo {
+    flex-direction: column;
+    margin-top: 6em;
+  }
+  iframe {
+    width: 40em;
+    height: 18em;
+  }
+  .company-1 {
+    display: flex;
+    gap: 0.5em;
+    width: 100%;
+  }
+  .ovCompany {
+    margin-top: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .navSection {
+    display: inline-block;
+    line-height: 1;
+    font-size: 0.9em;
+  }
+  .navSection5 {
+    display: block;
+  }
+  .navSection1 {
+    line-height: 0;
+    font-size: 0.8em;
+  }
+  .company {
+    width: 30em;
+    padding: 0.3em;
+  }
+  .company-1 {
+  gap: 0em;
+  }
+  .com-last-div {
+    gap: 1em;
+  }
+  .paragraph {
+    color: #c7c5c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .abt_Us_h1 {
+    padding-left: 0;
+    width: 6em;
+  }
+
+  .abt_Us {
+    padding: 5em;
+  }
+  .abt_Div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5em;
+    padding-bottom: 15px;
+  }
+  .htx_abt {
+    font-size: 23px;
+    padding-bottom: 0em;
+    padding-left: 0.8em;
+  }
+  .abt_para {
+    width: 25em;
+    line-height: 1.5;
+    padding: 1em;
+  }
+  .img1 {
+    width: 27em;
+    padding-top: 3em;
+  }
+  .put_Abt {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .win_Abt {
+    width: 23em;
+    height: 12em;
+    padding: 1em;
+    background-color: #141313;
+    text-align: center;
+    line-height: 1.7;
+  }
+  .bitcoinVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+  }
+  iframe {
+    width: 380px;
+  }
+  .videoDescription {
+    width: 100%;
+    padding: 0.3em;
+  }
+  .videoParagraph {
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .videoParagraph1 {
+    padding-top: 1em;
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+  .videoParagraph2 {
+    padding-top: 1em;
+    font-size: 1.2em;
+  }
+  .videoParagraph00 {
+    font-size: 1.3em;
+  }
+  .company-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: left;
+  }
+  .com-last-div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ovCompany {
+    margin-top: 4.5em;
+    padding-top: 2em;
+  }
+  .navSection5 {
+    display: block;
+    line-height: 0;
+  }
+  .navSection {
+    display: block;
+    line-height: 0;
+  }
+}
